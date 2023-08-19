@@ -1,0 +1,6 @@
+{
+  "HOST": "localhost",
+  "PORT": 80,
+  "DIRECTORY": "",
+  "INDEX_FILE": "index.html"
+}
