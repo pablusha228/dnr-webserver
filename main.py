@@ -14,6 +14,8 @@ HOST = config["HOST"]
 PORT = config["PORT"]
 DIRECTORY = config["DIRECTORY"]
 INDEX_FILE = config["INDEX_FILE"]
+ERROR_404 = config["404"]
+
 SERVER_DIR = os.path.dirname(os.path.realpath(__file__))
 
 def run_server():
@@ -27,6 +29,6 @@ def run_server():
 
         while True:
             client_socket, addr = server_socket.accept()
-            http_request.handle_request(client_socket, DIRECTORY, INDEX_FILE, SERVER_DIR)
+            http_request.handle_request(client_socket, DIRECTORY, INDEX_FILE, ERROR_404, SERVER_DIR)
 
 run_server()

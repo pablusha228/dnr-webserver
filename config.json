@@ -1,6 +1,7 @@
 {
-  "HOST": "localhost",
+  "HOST": "0.0.0.0",
   "PORT": 80,
-  "DIRECTORY": "",
-  "INDEX_FILE": "index.html"
+  "DIRECTORY": "C:/html",
+  "INDEX_FILE": "index.html",
+  "404": "C:/error_404.html"
 }
