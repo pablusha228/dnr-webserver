@@ -13,6 +13,6 @@ PORT: порт сервера
 
 DIRECTORY: директория с файлами сервера
 
-INDEX_FILE: главный файл (index.html, index.html и тд)
+INDEX_FILE: главный файл (index.html, index.php и тд)
 
 ERROR_404: путь до страницы с ашепкай 404
